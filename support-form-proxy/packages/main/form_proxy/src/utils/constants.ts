@@ -1,8 +1,20 @@
 export const baseURL = "https://support.wecourts.com/hc/en-us/requests/new";
-export const formId = "22267967949597";
+
+export const fromIds = {
+    "community-reporting-channel": "23374000465821",
+    "duplicate-profiles-in-wppr": "23374026229533",
+    "tournament-results-not-on-wecourts-yet": "23444411211165",
+    "wrong-match-data": "23374037391133",
+    "report-rating-issue": "23374008389533",
+    "update-profile-information": "23374053996061",
+    "someone-claimed-my-account": "23374031596189",
+    "become-wppr-partner": "23374076480157",
+    "add-tournament-to-wecourts": "23374072567581",
+    "submit-tournament-results": "23374073574685",
+    "something-else": "23374085333277",
+}
 
 export const fieldIds = {
-
     "address": "22488446465437",  //Drop-down     
     "assignee": "22230557536285",  //Drop-down     
     "checkbox-for-reporting-issue-about-another-player": "23355254801693",  //Checkbox     
