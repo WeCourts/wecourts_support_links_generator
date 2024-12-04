@@ -1,14 +1,14 @@
-import { baseURL, fieldIds, formId } from "./constants";
-import { generateSupportTicketLink } from "./support_link_generator";
+// import { baseURL, fieldIds, formIds } from "./constants";
+// import { generateSupportTicketLink } from "./support_link_generator";
 
 
-export function generateIncorrectMatchDataTicketLink(args : {}): string {
-    throw "todo generateIncorrectMatchDataTicketLink";
-    let issueType: string = 'incorrect_match_data';
-    let argsMap = { [fieldIds.reasonForContact]: issueType ,
-            [fieldIds.fullName] : args['exampleField'],
-    };
+// export function generateIncorrectMatchDataTicketLink(args : {}): string {
+//     throw "todo generateIncorrectMatchDataTicketLink";
+    
+//     let argsMap = { 
+        
+//     };
 
-    return generateSupportTicketLink(baseURL, formId, argsMap);
+//     return generateSupportTicketLink(baseURL, formIds["wrong-match-data"] , argsMap);
 
-}
+// }

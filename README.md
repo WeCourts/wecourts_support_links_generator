@@ -30,6 +30,12 @@ npm install
 ### deployment
 
 ```bash
+# before first deployment, you may need to install serverless support
+doctl serverless install 
+# you may need to create a new namespace for the function you're deploying in order not to override other deployed function.
+doctl serverless namespaces create
+# connect to the desired namespace. If only one namespace is available, it'll be selected automatically
+doctl serverless connect
 # if you want the build to be triggered remotely on digital ocean machines
 doctl serverless deploy support-form-proxy --remote-build
 # <<not recommended>> if you want to trigger the build locally on your machine
